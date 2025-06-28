@@ -1,0 +1,24 @@
+From b7b18eb41de8f13cbe36b93bb6aca43d766da269 Mon Sep 17 00:00:00 2001
+From: Sanath SB <sanathsbadari@gmail.com>
+Date: Sat, 28 Jun 2025 22:09:29 +0530
+Subject: [PATCH] add am335x boneblack custom
+
+---
+ arch/arm/boot/dts/am335x-boneblack.dts | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/arch/arm/boot/dts/am335x-boneblack.dts b/arch/arm/boot/dts/am335x-boneblack.dts
+index 9312197316f0..b419aa62f3f3 100644
+--- a/arch/arm/boot/dts/am335x-boneblack.dts
++++ b/arch/arm/boot/dts/am335x-boneblack.dts
+@@ -8,6 +8,7 @@
+ #include "am335x-bone-common.dtsi"
+ #include "am335x-boneblack-common.dtsi"
+ #include "am335x-boneblack-hdmi.dtsi"
++#include "am335x-boneblack-custom.dtsi"
+ 
+ / {
+ 	model = "TI AM335x BeagleBone Black";
+-- 
+2.25.1
+
